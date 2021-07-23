@@ -17,7 +17,7 @@ def ZK_equality(G,H):
     C2 = r1.value * H + m.value * G
     
     D1 = r2.value * G
-    D2 = r1.value * H + m.value * G
+    D2 = r2.value * H + m.value * G
     
     
     #Generate a NIZK proving equality of the plaintexts
